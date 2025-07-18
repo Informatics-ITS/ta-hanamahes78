@@ -1,10 +1,10 @@
 # 🏁 Tugas Akhir (TA) - Final Project
 
-**Nama Mahasiswa**: [Nama Lengkap]  
-**NRP**: [Nomor Registrasi Pokok]  
-**Judul TA**: [Judul Tugas Akhir]  
-**Dosen Pembimbing**: [Nama Dosen]  
-**Dosen Ko-pembimbing**: [Nama Dosen]
+**Nama Mahasiswa**: Hana Maheswari  
+**NRP**: 5025211182  
+**Judul TA**: Perancangan dan Analisis Algoritma Pembangkit Struktur Graf Kaktus pada Permasalahan: Studi Kasus E-Olymp 9582 - Cactus Revenge  
+**Dosen Pembimbing**: Ir. M.M. Irfan Subakti, S.Kom., M.Sc.Eng., M.Phil., IPM  
+**Dosen Ko-pembimbing**: Rully Soelaiman, S.Kom., M.Kom.
 
 ---
 
@@ -21,55 +21,31 @@ Embed video demo di bawah ini (ganti `VIDEO_ID` dengan ID video YouTube Anda):
 ## 🛠 Panduan Instalasi & Menjalankan Software  
 
 ### Prasyarat  
-- Daftar dependensi (contoh):
-  - Python 3.10+
-  - Node.js v18+
-  - MySQL 8.0
-  - [Lainnya...]
+- Daftar dependensi:
+  - Compiler C++
 
 ### Langkah-langkah  
 1. **Clone Repository**  
    ```bash
-   git clone https://github.com/Informatics-ITS/TA.git
+   git clone https://github.com/Informatics-ITS/ta-hanamahes78.git
    ```
-2. **Instalasi Dependensi**
+2. **Jalankan Aplikasi**
    ```bash
-   cd [folder-proyek]
-   pip install -r requirements.txt  # Contoh untuk Python
-   npm install  # Contoh untuk Node.js
+   ./main
    ```
-3. **Konfigurasi**
-- Salin/rename file .env.example menjadi .env
-- Isi variabel lingkungan sesuai kebutuhan (database, API key, dll.)
-4. **Jalankan Aplikasi**
+3. Masukan input $n$ sebagai banyaknya vertex dan deretan $d_1, d_2, ..., d_n$
+   
+   Contoh:
    ```bash
-   python main.py  # Contoh untuk Python
-   npm start      # Contoh untuk Node.js
+   15
+   1 4 3 2 2 2 2 2 4 4 2 2 2 2 2
    ```
-5. Buka browser dan kunjungi: `http://localhost:3000` (sesuaikan dengan port proyek Anda)
-
----
-
-## 📚 Dokumentasi Tambahan
-
-- [![Dokumentasi API]](docs/api.md)
-- [![Diagram Arsitektur]](docs/architecture.png)
-- [![Struktur Basis Data]](docs/database_schema.sql)
-
----
-
-## ✅ Validasi
-
-Pastikan proyek memenuhi kriteria berikut sebelum submit:
-- Source code dapat di-build/run tanpa error
-- Video demo jelas menampilkan fitur utama
-- README lengkap dan terupdate
-- Tidak ada data sensitif (password, API key) yang ter-expose
+4. Untuk mengetes kebenaran kode, kode dapat disubmit pada laman online judge [E-Olymp - Cactus Revenge](https://basecamp.eolymp.com/en/problems/9582)
 
 ---
 
 ## ⁉️ Pertanyaan?
 
 Hubungi:
-- Penulis: [email@mahasiswa]
-- Pembimbing Utama: [email@pembimbing]
+- Penulis: [hanamaheswari12@gmail.com]
+- Pembimbing Utama: [rully@if.its.ac.id]
